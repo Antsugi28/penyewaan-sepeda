@@ -6,7 +6,7 @@ import streamlit as st
 from babel.numbers import format_currency
 sns.set(style='dark')
 
-bike_df = pd.read_csv("main_day.csv")
+bike_df = pd.read_csv("https://raw.githubusercontent.com/Antsugi28/penyewaan-sepeda/main/dashboard/main_day.csv")
 
 bike_df.rename(columns={'instant':'rec_id','dteday':'datetime','yr':'year','mnth':'month','weathersit':'weather_condition','hum':'humidity','cnt':'total_count'},inplace=True)
 
