@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import streamlit as st
-from babel.numbers import format_currency
+
 sns.set(style='dark')
 
 bike_df = pd.read_csv("https://raw.githubusercontent.com/Antsugi28/penyewaan-sepeda/main/main_day.csv")
