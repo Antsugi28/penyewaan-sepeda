@@ -1,4 +1,4 @@
-# My Dashboard Submission for Data Analyst Project (Dicoding) ✨
+# Anggi Septriana's Submission for Data Analyst Project (Dicoding) ✨
 
 ## Data Set Information
 ```
